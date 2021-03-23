@@ -6,15 +6,9 @@ export const Cart = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
- 
     height: 100%;
-
     border-color: transparent ;
     transition: all 0.3s linear;
-
-
-
-    
 `;
 export const ImgContainer = styled.div`
 width: 100%;
@@ -84,10 +78,11 @@ export const CartFooter = styled.div`
     }
 `;
 export const ProductWrapper = styled.div`
-width: 100%;
+
 height: 100%;
 overflow: hidden;
 max-height: 300px;
+border: 5px solid rgba(255, 217 ,28, 0.8);
 
     &:hover{
         ${Cart} {

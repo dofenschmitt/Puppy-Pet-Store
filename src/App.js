@@ -17,7 +17,7 @@ function App() {
     <>
     <GlobalStyle />
     <Router>
-      <div className="App">
+      <div >
         <Header />
         <Switch>
           <Route exact  path="/" >

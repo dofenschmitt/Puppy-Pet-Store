@@ -5,7 +5,7 @@ export const Container = styled.div`
    
     text-align: center;
     width: 100%;
-
+    
     @media(max-width: 1400px){
         display: block;
     }
@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 `;
 export const Row = styled.div`
-    
+    font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2px;

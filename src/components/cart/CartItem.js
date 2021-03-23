@@ -3,12 +3,11 @@ import styled from 'styled-components';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 const Row = styled.div`
+    width: 100%;
     text-transform: capitalize;
     margin: 2px 0;
     align-items: center;
-    justify-content: center;
     
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2px;
@@ -22,7 +21,13 @@ const Row = styled.div`
         height: 7rem;
         margin: 1.1rem 0 0  0;
         overflow: hidden;
+        align-self: center;
     }
+`;
+const ImgContainer = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
 `;
 const Small = styled.span`
     @media(min-width: 700px){
@@ -70,7 +75,7 @@ export default function CartItem({value, item}) {
 
     return (
         <Row>
-            <img src={image} alt={alt} />
+            <ImgContainer><img src={image} alt={alt} /></ImgContainer>
             <div>
                 <p><Small>product : </Small>{title}</p>
             </div>

@@ -14,14 +14,10 @@ export const Title = styled.div`
 
 `;
 export const Row = styled.div`
-    width: 80%;
+    width: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
     grid-gap: 25px; 
-
-    @media(max-width: 1400px){
-            grid-template-columns: 100%;
-        }
  
 `;
 // export const Row =styled.div`

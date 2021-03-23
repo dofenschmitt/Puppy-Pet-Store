@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     width:100%;
-`;
-const Row = styled.section`
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin: 5px auto;
+    justify-content: flex-end;
+
+    @media(max-width: 700px){
+        justify-content: center;
+    }
 `;
+
 const Button = styled.button`
     border: 3px solid #f44336;
     background-color: white;
@@ -27,6 +26,24 @@ const Button = styled.button`
         background: #f44336;
         color: white;
     }
+`;
+
+
+
+const Row = styled.section`
+    
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border: 2px solid black;
+    
+    h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-style: 2rem;
+    padding: 5px;
+    }
+    
 `;
 
 export default function CartTotal({value} ) {
