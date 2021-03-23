@@ -4,7 +4,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 export const HeroSection = styled.section`
-    height: 80vh;
+    height: 70vh;
     max-height: 1100vh;
     position: relative;
     overflow: hidden;
@@ -48,7 +48,7 @@ export const HeroImage = styled.img`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100vw; 
     height: 100%;
     object-fit: cover;
 

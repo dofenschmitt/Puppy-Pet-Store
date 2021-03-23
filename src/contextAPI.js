@@ -29,7 +29,8 @@ const ProductContext =  React.createContext();
             modalProduct: detailProduct,
             cartSubTotal: 0,
             cartTax: 0,
-            cartTotal: 0
+            cartTotal: 0,
+            itemNumber: 0
         };
 
         /***ComponentDidMount is a life cyle(runs when the program loads)
@@ -192,15 +193,21 @@ const ProductContext =  React.createContext();
             const tax = parseFloat(tempTax.toFixed(2));
             const total = subTotal + tax;
 
+            let sum = 0;
+            this.state.cart.map(item => (sum += item.count));
+
             this.setState(() => {
                 return{
                     cartSubTotal: subTotal,
                     cartTax: tax,
-                    cartTotal: total
+                    cartTotal: total,
+                    itemNumber: sum
                 }
             });
 
         }
+
+        
 
         //End Cart components functions 
 

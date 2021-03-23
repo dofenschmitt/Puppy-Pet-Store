@@ -25,7 +25,7 @@ export const Row = styled.div`
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     
-    @media(max-width: 1400px){
+    @media(max-width: 750px){
         grid-template-columns: 100%;
     }
 `;

@@ -9,6 +9,8 @@ import  Details from "./components/Details";
 import Modal from './components/Modal';
 import Cart from './components/cart'
 import Default from "./components/Default";
+import GridBanner from "./components/banner/GridBanner";
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
         <Switch>
           <Route exact  path="/" >
             <Hero  slides = {SliderData}/>
+            <GridBanner />
             <GridContainer />
           </Route>
           <Route path = "/details">

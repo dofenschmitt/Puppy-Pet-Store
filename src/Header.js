@@ -4,17 +4,19 @@ import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import { Link } from "react-router-dom";
+import { ProductConsumer } from './contextAPI'
 // import { useStateValue } from "./StateProvider";
 // import { auth } from "./firebase";
 
 function Header() {
     // const [{ basket, user }, dispatch] = useStateValue();
 
-    // const handleAuthentification = () => {
-    //     if(user){
-    //         auth.signOut();
-    //     }
-    // }
+    const handleAuthentification = () => {
+        // if(user){
+        //     auth.signOut();
+        // } 
+    }
+    const user = [];
 
     return (
         <div className='header'>
@@ -39,7 +41,7 @@ function Header() {
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
-                {/* <Link to={!user && '/login'}>
+                <Link to={!user && '/login'}>
                 <div onClick={handleAuthentification} className="header__option">
                     <span className="header__optionLineOne" >
                         Hello {user ? user.email : 'Guest'}
@@ -48,7 +50,7 @@ function Header() {
                         {user ? 'Signe Out' : 'Signe In'}
                     </span>
                 </div>
-                </Link> */}
+                </Link>
                 <div className="header__option">
                 <span className="header__optionLineOne" >
                         Returns
@@ -67,14 +69,21 @@ function Header() {
                     </span>
                     
                 </div>
-                <Link to = "/checkout">
-                    <div className="header__optionBasket">
-                            <ShoppingCartIcon />
-                    {/* <span className="header__optionLineTwo header__basketCount">
-                            {basket?.length}
-                        </span> */}
-                    </div>
-                </Link>
+                <ProductConsumer>
+                    { value => {       
+                            return (
+                            <Link to = "/cart">
+                                <div className="header__optionBasket">
+                                        <ShoppingCartIcon />
+                                    <span className="header__optionLineTwo header__basketCount">
+                                        {value.itemNumber}
+                                    </span> 
+                                </div>
+                            </Link>
+                            )
+                        }
+                    }
+                </ProductConsumer>
             </div>
 
         </div>
