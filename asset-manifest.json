@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Puppy-Pet-Store/static/css/main.53ddd874.chunk.css",
+    "main.js": "/Puppy-Pet-Store/static/js/main.bb206ad8.chunk.js",
+    "main.js.map": "/Puppy-Pet-Store/static/js/main.bb206ad8.chunk.js.map",
+    "runtime-main.js": "/Puppy-Pet-Store/static/js/runtime-main.ed7a59be.js",
+    "runtime-main.js.map": "/Puppy-Pet-Store/static/js/runtime-main.ed7a59be.js.map",
+    "static/js/2.9908bbee.chunk.js": "/Puppy-Pet-Store/static/js/2.9908bbee.chunk.js",
+    "static/js/2.9908bbee.chunk.js.map": "/Puppy-Pet-Store/static/js/2.9908bbee.chunk.js.map",
+    "static/js/3.c12418d1.chunk.js": "/Puppy-Pet-Store/static/js/3.c12418d1.chunk.js",
+    "static/js/3.c12418d1.chunk.js.map": "/Puppy-Pet-Store/static/js/3.c12418d1.chunk.js.map",
+    "index.html": "/Puppy-Pet-Store/index.html",
+    "static/css/main.53ddd874.chunk.css.map": "/Puppy-Pet-Store/static/css/main.53ddd874.chunk.css.map",
+    "static/js/2.9908bbee.chunk.js.LICENSE.txt": "/Puppy-Pet-Store/static/js/2.9908bbee.chunk.js.LICENSE.txt",
+    "static/media/prod-1.da9f4216.jpg": "/Puppy-Pet-Store/static/media/prod-1.da9f4216.jpg",
+    "static/media/prod-2.863e837a.jpg": "/Puppy-Pet-Store/static/media/prod-2.863e837a.jpg",
+    "static/media/prod-3.9e917210.jpg": "/Puppy-Pet-Store/static/media/prod-3.9e917210.jpg",
+    "static/media/prod-4.42a4902e.jpg": "/Puppy-Pet-Store/static/media/prod-4.42a4902e.jpg",
+    "static/media/prod-5.7c8cb722.jpg": "/Puppy-Pet-Store/static/media/prod-5.7c8cb722.jpg",
+    "static/media/prod-6.b3abed57.jpg": "/Puppy-Pet-Store/static/media/prod-6.b3abed57.jpg",
+    "static/media/prod-7.ba42e255.jpg": "/Puppy-Pet-Store/static/media/prod-7.ba42e255.jpg",
+    "static/media/prod-8.f8ef27ee.jpg": "/Puppy-Pet-Store/static/media/prod-8.f8ef27ee.jpg",
+    "static/media/prod-9.b7c9983b.jpg": "/Puppy-Pet-Store/static/media/prod-9.b7c9983b.jpg",
+    "static/media/pup-1.48a5ecad.jpg": "/Puppy-Pet-Store/static/media/pup-1.48a5ecad.jpg",
+    "static/media/pup-2.2b90394a.jpg": "/Puppy-Pet-Store/static/media/pup-2.2b90394a.jpg",
+    "static/media/pup-3.f235c71e.jpeg": "/Puppy-Pet-Store/static/media/pup-3.f235c71e.jpeg",
+    "static/media/pup-4.7cab6907.jpg": "/Puppy-Pet-Store/static/media/pup-4.7cab6907.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed7a59be.js",
+    "static/js/2.9908bbee.chunk.js",
+    "static/css/main.53ddd874.chunk.css",
+    "static/js/main.bb206ad8.chunk.js"
+  ]
+}
